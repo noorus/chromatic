@@ -1,20 +1,20 @@
 chromatic
 =========
 
-A small musical utility to break down chords, scales and progressions.
-Currently used from the command line.
+A small musical utility to break down chords, scales and progressions.  
+Currently only used from the command line.
 
 Usage
 -----
 
-For simplicity, chromatic only speaks in sharp notes, as opposed to flats.
-Only triad chords are supported, and are notated in guitarists' shorthand as follows:
-* C - C Major
-* Cm - C Minor
-* Ca - C Augmented
-* Co - C Diminished
-* Csus4 - C Suspended Fourth
-* Csus2 - C Suspended Second
+For simplicity, chromatic only speaks in sharp notes, as opposed to flats.  
+Only triad chords are supported, and are notated in guitarist's shorthand as follows:
+* `C` - C Major
+* `Cm` - C Minor
+* `Ca` - C Augmented
+* `Co` - C Diminished
+* `Csus4` - C Suspended Fourth
+* `Csus2` - C Suspended Second
 
 chromatic is case insensitive.
 
@@ -66,10 +66,10 @@ For example,
 Download
 --------
 
-Most recent Win32 build here: [chromatic/chromatic.exe](https://github.com/downloads/noorus/chromatic/chromatic.exe)
+Most recent Win32 build here: [chromatic/chromatic.exe](https://github.com/downloads/noorus/chromatic/chromatic.exe) (2012-06-04)
 
 Building
 --------
 
-Requires [boost](http://www.boost.org/) in global includes.
+Requires [boost](http://www.boost.org/) in global includes.  
 Comes with a VS2008 solution, but should port trivially to other platforms.
