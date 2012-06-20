@@ -23,6 +23,7 @@ Note noteFromString( const wstring& str )
 
 Triad chordFromString( wstring str )
 {
+  // rather naïve
   ChordType type = ChordType_Major;
   if ( str.length() > 1 )
   {
@@ -63,9 +64,6 @@ DiatonicScale scaleFromString( wstring str )
 
 int wmain( int argc, wchar_t* argv[] )
 {
-  Note c = Note_B;
-  c++;
-  wprintf_s( L"%s\r\n", g_notesSharpStr[c] );
   if ( argc < 2 ) {
     wprintf_s( L"Syntax: %s <action>\r\n", argv[0] );
     wprintf_s( L"Valid actions: chord, scale, progression\r\n" );
