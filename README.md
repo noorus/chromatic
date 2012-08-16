@@ -73,3 +73,9 @@ Building
 
 Requires [boost](http://www.boost.org/) in global includes.  
 Comes with a VS2008 solution, but should port trivially to other platforms.
+
+License
+-------
+
+Chromatic is licensed under version 3 of the GNU General Public License.  
+For full license text, see the LICENSE file.
